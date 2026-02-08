@@ -1,0 +1,241 @@
+[com/raggesilver/BlackBox]
+font='Ubuntu Sans Mono 12'
+theme-dark='Yaru'
+was-maximized=false
+window-height=uint32 747
+window-width=uint32 1069
+
+[com/usebottles/bottles]
+startup-view='page_list'
+window-height=640
+window-width=880
+
+[org/gnome/Console]
+last-window-maximised=false
+last-window-size=(732, 576)
+
+[org/gnome/Ptyxis]
+default-profile-uuid='b9bf9f74133956c881c6319269889709'
+font-name='Ubuntu Sans Mono 12'
+profile-uuids=['b9bf9f74133956c881c6319269889709']
+use-system-font=false
+window-size=(uint32 184, uint32 36)
+
+[org/gnome/Ptyxis/Profiles/b9bf9f74133956c881c6319269889709]
+palette='Ubuntu'
+
+[org/gnome/boxes]
+first-run=false
+view='icon-view'
+window-maximized=false
+window-position=[26, 23]
+window-size=[1410, 893]
+
+[org/gnome/control-center]
+last-panel='system'
+window-state=(1368, 783, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['System', 'Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/System]
+apps=['org.gnome.baobab.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Logs.desktop', 'org.gnome.SystemMonitor.desktop']
+name='X-GNOME-Shell-System.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['org.gnome.Decibels.desktop', 'org.gnome.Connections.desktop', 'org.gnome.Papers.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Loupe.desktop']
+name='X-GNOME-Shell-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+picture-options='zoom'
+picture-uri='file:///home/chell/.config/background'
+picture-uri-dark='file:///home/chell/.config/background'
+
+[org/gnome/desktop/break-reminders/eyesight]
+play-sound=true
+
+[org/gnome/desktop/break-reminders/movement]
+duration-seconds=uint32 300
+interval-seconds=uint32 1800
+play-sound=true
+
+[org/gnome/desktop/input-sources]
+mru-sources=[('xkb', 'us')]
+sources=[('xkb', 'us')]
+xkb-options=['terminate:ctrl_alt_bksp']
+
+[org/gnome/desktop/interface]
+accent-color='orange'
+color-scheme='prefer-dark'
+cursor-theme='Yaru'
+gtk-theme='Yaru'
+icon-theme='Yaru'
+toolkit-accessibility=false
+
+[org/gnome/desktop/notifications]
+application-children=['vlc', 'gnome-power-panel', 'gnome-about-panel', 'org-telegram-desktop', 'qq', 'com-tencent-wechat', 'google-chrome', 'com-raggesilver-blackbox', 'steam', 'github-desktop', 'org-gnome-ptyxis']
+
+[org/gnome/desktop/notifications/application/com-raggesilver-blackbox]
+application-id='com.raggesilver.BlackBox.desktop'
+
+[org/gnome/desktop/notifications/application/com-tencent-wechat]
+application-id='com.tencent.wechat.desktop'
+
+[org/gnome/desktop/notifications/application/github-desktop]
+application-id='github-desktop.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-about-panel]
+application-id='gnome-about-panel.desktop'
+
+[org/gnome/desktop/notifications/application/gnome-power-panel]
+application-id='gnome-power-panel.desktop'
+
+[org/gnome/desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-ptyxis]
+application-id='org.gnome.Ptyxis.desktop'
+
+[org/gnome/desktop/notifications/application/org-telegram-desktop]
+application-id='org.telegram.desktop.desktop'
+
+[org/gnome/desktop/notifications/application/qq]
+application-id='qq.desktop'
+
+[org/gnome/desktop/notifications/application/steam]
+application-id='steam.desktop'
+
+[org/gnome/desktop/notifications/application/vlc]
+application-id='vlc.desktop'
+
+[org/gnome/desktop/peripherals/keyboard]
+numlock-state=true
+
+[org/gnome/desktop/peripherals/mouse]
+accel-profile='flat'
+
+[org/gnome/desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/wm/preferences]
+button-layout='appmenu:minimize,maximize,close'
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/mutter]
+overlay-key='Super'
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+
+[org/gnome/nautilus/window-state]
+initial-size=(886, 550)
+initial-size-file-chooser=(890, 550)
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-schedule-automatic=false
+
+[org/gnome/settings-daemon/plugins/housekeeping]
+donation-reminder-last-shown=int64 1770478246750289
+
+[org/gnome/shell]
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, '.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'io.github.msojocs.bilibili.desktop': <{'position': <5>}>, 'org.gnome.SimpleScan.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.Calculator.desktop': <{'position': <8>}>, 'org.gnome.Showtime.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'org.gnome.Characters.desktop': <{'position': <11>}>, 'kbd-layout-viewer5.desktop': <{'position': <12>}>, 'org.gnome.Extensions.desktop': <{'position': <13>}>, 'org.gnome.Console.desktop': <{'position': <14>}>, 'org.gnome.Tour.desktop': <{'position': <15>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <16>}>, 'org.gnome.seahorse.Application.desktop': <{'position': <17>}>, ' Complete Edition.desktop': <{'position': <18>}>, 'org.gnome.Software.desktop': <{'position': <19>}>, 'wemeetapp.desktop': <{'position': <20>}>}, {'com.tencent.wechat.desktop': <{'position': <0>}>, 'com.usebottles.bottles.desktop': <{'position': <1>}>, 'brave-browser.desktop': <{'position': <2>}>, 'com.brave.Browser.desktop': <{'position': <3>}>, 'chromium-browser.desktop': <{'position': <4>}>, 'io.github.marco_calautti.DeltaPatcher.desktop': <{'position': <5>}>, 'DELTARUNE.desktop': <{'position': <6>}>, 'org.dosbox-staging.dosbox-staging.desktop': <{'position': <7>}>, 'org.fcitx.Fcitx5.desktop': <{'position': <8>}>, 'fcitx5-configtool.desktop': <{'position': <9>}>, 'org.fcitx.fcitx5-migrator.desktop': <{'position': <10>}>, 'firefox.desktop': <{'position': <11>}>, 'com.github.tchx84.Flatseal.desktop': <{'position': <12>}>, 'org.gnome.gedit.desktop': <{'position': <13>}>, 'gimp.desktop': <{'position': <14>}>, 'htop.desktop': <{'position': <15>}>, 'org.kde.krita.desktop': <{'position': <16>}>, 'nvim.desktop': <{'position': <17>}>, 'nixos-manual.desktop': <{'position': <18>}>, 'nvidia-settings.desktop': <{'position': <19>}>, 'com.obsproject.Studio.desktop': <{'position': <20>}>, 'PAC-MAN 256.desktop': <{'position': <21>}>, 'Utilities': <{'position': <22>}>, 'System': <{'position': <23>}>}, {'org.prismlauncher.PrismLauncher.desktop': <{'position': <0>}>, 'protonup-qt.desktop': <{'position': <1>}>, 'qq.desktop': <{'position': <2>}>, 'page.tesk.Refine.desktop': <{'position': <3>}>, 'Sifu.desktop': <{'position': <4>}>, 'solaar.desktop': <{'position': <5>}>, 'steam.desktop': <{'position': <6>}>, 'org.telegram.desktop.desktop': <{'position': <7>}>, 'io.github.diegopvlk.Tomatillo.desktop': <{'position': <8>}>, 'Undertale.desktop': <{'position': <9>}>, 'github-desktop.desktop': <{'position': <10>}>, 'v2raya.desktop': <{'position': <11>}>, 'vlc.desktop': <{'position': <12>}>, 'wps-office-et.desktop': <{'position': <13>}>, 'wps-office-wps.desktop': <{'position': <14>}>, 'wps-office-wpp.desktop': <{'position': <15>}>, 'wps-office-prometheus.desktop': <{'position': <16>}>, 'wps-office-pdf.desktop': <{'position': <17>}>, 'xterm.desktop': <{'position': <18>}>, 'virt-manager.desktop': <{'position': <19>}>, 'org.gnome.Boxes.desktop': <{'position': <20>}>, 'org.gnome.Ptyxis.desktop': <{'position': <21>}>}, {'org.gnome.Epiphany.desktop': <{'position': <0>}>, 'com.google.Chrome.desktop': <{'position': <1>}>, 'org.gnome.Calendar.desktop': <{'position': <2>}>, 'org.gnome.Music.desktop': <{'position': <3>}>}]
+disabled-extensions=['arcmenu@arcmenu.com', 'dash-to-panel@jderose9.github.com', 'dock-express@fthx', 'dock-from-dash@fthx', 'dock-ng@ochi12.github.com', 'dock-reloaded@selfmade.pl']
+enabled-extensions=['ding@rastersoft.com', 'appindicatorsupport@rgcjonas.gmail.com', 'kimpanel@kde.org', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'yaru-like-panel@fthx', 'dash-to-dock@micxgx.gmail.com']
+favorite-apps=['google-chrome.desktop', 'org.gnome.TextEditor.desktop', 'org.gnome.Nautilus.desktop', 'com.mitchellh.ghostty.desktop', 'com.raggesilver.BlackBox.desktop', 'org.gnome.Ptyxis.desktop', 'org.gnome.Yelp.desktop']
+last-selected-power-profile='power-saver'
+welcome-dialog-last-shown-version='49.2'
+
+[org/gnome/shell/extensions/arcmenu]
+dash-to-panel-standalone=false
+multi-monitor=false
+prefs-visible-page=0
+search-entry-border-radius=(true, 25)
+show-activities-button=false
+update-notifier-project-version=69
+
+[org/gnome/shell/extensions/dash-to-dock]
+always-center-icons=false
+apply-custom-theme=false
+background-opacity=0.80000000000000004
+click-action='minimize'
+custom-theme-shrink=true
+dash-max-icon-size=48
+disable-overview-on-startup=true
+dock-fixed=true
+dock-position='LEFT'
+extend-height=true
+height-fraction=0.90000000000000002
+icon-size-fixed=true
+preferred-monitor=-2
+preferred-monitor-by-connector='HDMI-1'
+running-indicator-style='DOTS'
+scroll-action='switch-workspace'
+show-apps-at-top=false
+show-show-apps-button=true
+
+[org/gnome/shell/extensions/dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+dot-position='BOTTOM'
+extension-version=72
+hotkeys-overlay-combo='TEMPORARILY'
+panel-anchors='{"SGT-            ":"MIDDLE"}'
+panel-element-positions='{}'
+panel-lengths='{}'
+panel-positions='{}'
+panel-sizes='{}'
+prefs-opened=false
+show-apps-icon-file=''
+window-preview-title-position='TOP'
+
+[org/gnome/shell/extensions/ding]
+check-x11wayland=true
+
+[org/gnome/shell/extensions/dock-express]
+dock-autohide=true
+
+[org/gnome/shell/extensions/user-theme]
+name='Yaru-dark'
+
+[org/gnome/shell/keybindings]
+show-screenshot-ui=['<Shift><Super>s']
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/software]
+check-timestamp=int64 1770525290
+first-run=false
+flatpak-purge-timestamp=int64 1770530817
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=179
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'
+window-position=(26, 23)
+window-size=(1231, 902)
+
+[org/virt-manager/virt-manager/connections]
+autoconnect=['qemu:///system']
+uris=['qemu:///system']
