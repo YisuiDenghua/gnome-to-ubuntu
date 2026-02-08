@@ -51,3 +51,5 @@
  ```sh
 dconf load -f / < ubuntu.dconf 
  ```
+ 
+If my configuration file is incompatible with your GNOME, you can use `dconf reset -f /` to reset your gnome

@@ -13,7 +13,6 @@
     })
   ];
 
-  services.displayManager.gdm.enable = false;
   services.desktopManager.gnome.enable = true;
   environment.systemPackages = with pkgs; [
     gnomeExtensions.user-themes

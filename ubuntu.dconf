@@ -135,6 +135,14 @@ button-layout='appmenu:minimize,maximize,close'
 [org/gnome/evolution-data-server]
 migrated=true
 
+[org/gnome/gedit/state/window]
+bottom-panel-size=140
+height=700
+maximized=false
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+width=900
+
 [org/gnome/mutter]
 overlay-key='Super'
 
@@ -145,6 +153,12 @@ migrated-gtk-settings=true
 [org/gnome/nautilus/window-state]
 initial-size=(886, 550)
 initial-size-file-chooser=(890, 550)
+
+[org/gnome/portal/filechooser/com.google.Chrome]
+last-folder-path='/home/chell/下载'
+
+[org/gnome/portal/filechooser/qq]
+last-folder-path='/home/chell/图片'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-schedule-automatic=false
@@ -181,6 +195,7 @@ dock-position='LEFT'
 extend-height=true
 height-fraction=0.90000000000000002
 icon-size-fixed=true
+multi-monitor=false
 preferred-monitor=-2
 preferred-monitor-by-connector='HDMI-1'
 running-indicator-style='DOTS'
