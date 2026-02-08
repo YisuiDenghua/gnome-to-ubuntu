@@ -1,6 +1,8 @@
 # gnome-to-ubuntu
  Here is how I made my GNOME looks Ubuntu
  
+ ![Example](https://raw.githubusercontent.com/YisuiDenghua/gnome-to-ubuntu/refs/heads/main/eg.png)
+ 
  First, install the Yaru GTK theme, Ubuntu fonts, ptyxis, gnome-tweaks or refine. And GNOME extensions: user-themes, appindicator, yaru-like-panel, dash to dock, desktop icons ng.
  
  ```nix
@@ -19,7 +21,6 @@
     })
   ];
 
-  services.displayManager.gdm.enable = false;
   services.desktopManager.gnome.enable = true;
   environment.systemPackages = with pkgs; [
     gnomeExtensions.user-themes
