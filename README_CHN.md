@@ -1,11 +1,9 @@
 # gnome-to-ubuntu
- Here is how I made my GNOME looks Ubuntu
- 
- [简体中文](README_CHN.md)
+ 以下是我如何让我的 GNOME 界面看起来像 Ubuntu 的方法。
  
  ![Example](https://raw.githubusercontent.com/YisuiDenghua/gnome-to-ubuntu/refs/heads/main/eg.png)
  
- First, install the Yaru GTK theme, Ubuntu fonts, ptyxis, gnome-tweaks or refine. And GNOME extensions: user-themes, appindicator, yaru-like-panel, dash to dock, desktop icons ng.
+ 首先，安装  Yaru GTK 主题, Ubuntu 字体, ptyxis, gnome-tweaks 或 refine. 以及 下列 GNOME 扩展: user-themes, appindicator, yaru-like-panel, dash to dock, desktop icons ng.
  
  ```nix
 { config, lib, pkgs, ... }:{
@@ -49,17 +47,17 @@
 }
  ```
  
- After install, you can turn on those extensions and manually set your gnome theme to Yaru in Refine. You can also import my dconf to GNOME. Before you import my dconf, it's recommended to backup yours:
+ 安装完成后，您可以启用这些扩展程序，并在  Refine 中手动将  GNOME 主题设置为 Yaru。或者，您也可以将我的 dconf 文件导入到 GNOME 中。导入我的  dconf 文件之前，建议您先备份自己的 dconf 文件。:
  
  ```sh
  dconf dump / > backup.dconf
  ```
  
- Then, import mine.
+然后，导入我的。
  
  
  ```sh
 dconf load -f / < ubuntu.dconf 
  ```
  
-If my configuration file is incompatible with your GNOME, you can use `dconf load -f / < saved_settings.dconf` to revert to your backup dconf, or use `dconf reset -f /` to reset your gnome.
+如果我的配置文件与您的 GNOME 不兼容，您可以使用 `dconf load -f / < saved_settings.dconf` 恢复到您的备份 dconf，或者使用 `dconf reset -f /` 重置您的 GNOME。
